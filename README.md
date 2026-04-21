@@ -6,7 +6,7 @@
 ### Clone this project
 
 ```sh
-git clone --recursive <this-repo-url>
+git clone --recursive git@github.com:AfshinSynex/CDM_IP_personal.git
 cd CDM_v1
 python project_manager_shortcut.py
 # Select option 2 to recreate the Vivado project
