@@ -1,0 +1,3 @@
+[submodule "tools/vivado-project-manager"]
+	path = tools/vivado-project-manager
+	url = git@github.com:synexmedical/vivado_manager.git

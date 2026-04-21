@@ -1,0 +1,42 @@
+*
+# whitelist - managed by project_manager.py
+# DO NOT track ip_repo - contains submodules
+ip_repo/
+
+# GitHub Actions workflows
+!.github/
+!.github/**
+
+!CDM_v1.srcs/
+!CDM_v1.srcs/constrs_2/
+!CDM_v1.srcs/constrs_2/new/
+!CDM_v1.srcs/sources_1/
+!CDM_v1.srcs/sources_1/bd/
+!CDM_v1.srcs/sources_1/bd/design_1/
+!CDM_v1.srcs/sources_1/imports/
+!CDM_v1.srcs/sources_1/imports/hdl/
+!CDM_v1.srcs/sources_1/imports/new/
+!CDM_v1.srcs/sources_1/new/
+!CDM_v1.srcs/utils_1/
+!CDM_v1.srcs/utils_1/imports/
+!CDM_v1.srcs/utils_1/imports/synth_1/
+!.gitignore
+!CDM_v1.srcs/constrs_2/new/console_cd_pins.xdc
+!CDM_v1.srcs/sources_1/bd/design_1/design_1.bd
+!CDM_v1.srcs/sources_1/imports/hdl/CDM_RegisterSlice.v
+!CDM_v1.srcs/sources_1/imports/hdl/CDM_RegisterSlice_slave_lite_v1_0_S00_AXI.v
+!CDM_v1.srcs/sources_1/imports/new/PCM.v
+!CDM_v1.srcs/sources_1/imports/new/PCM_Streamer.vhd
+!CDM_v1.srcs/sources_1/new/CDM_36_slave_lite_v1_0_S00_AXI.v
+!CDM_v1.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp
+!CDM_v1.tcl
+!README.md
+!project_manager_shortcut.py
+
+# ip_export - custom IP cores
+!ip_export/
+!ip_export/**
+
+# user_files - user documentation and files
+!user_files/
+!user_files/**

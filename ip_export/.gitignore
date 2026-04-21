@@ -1,0 +1,39 @@
+# ip_export .gitignore - managed by project_manager.py
+# Only track Vivado IP source files
+
+# Ignore everything by default
+*
+
+# Allow subdirectories to be scanned
+!*/
+
+# Whitelist IP source files
+!*.xci
+!*.xcix
+!*.xdc
+!*.v
+!*.sv
+!*.vh
+!*.vhd
+!*.vhdl
+!*.mem
+!*.coe
+!*.mif
+!*.tcl
+!*.bd
+!*.xml
+!component.xml
+!*.prj
+
+# Always include this .gitignore
+!.gitignore
+
+# Exclude build/generated files even if they match above
+*.log
+*.jou
+*_stub.*
+*_sim_netlist.*
+*_funcsim.*
+synth_*/
+sim_*/
+.Xil/

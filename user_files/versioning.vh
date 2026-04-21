@@ -1,0 +1,5 @@
+`ifndef VERSIONING_VH
+`define VERSIONING_VH
+`define FW_VERSION 32'h00000001
+`define GIT_HASH 32'h00000000
+`endif
